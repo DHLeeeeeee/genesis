@@ -1,0 +1,327 @@
+/* Header */
+
+.header {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 70px;
+  z-index: 999;
+  background: #111;
+}
+
+.header a {
+  display: block;
+  color: #bbbbbb;
+}
+
+.header a:hover {
+  color: #fff;
+}
+
+.header .mainLogo {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  transform: translate(0, -50%);
+}
+
+.header .mainLogo a {
+  font-size: 0;
+}
+
+.header .mainLogo a img {
+  width: 130px;
+}
+
+.header .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header .inner .gnb > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header .utilMenu {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translate(0, -50%);
+}
+
+.header .utilMenu > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.header .utilMenu > ul i {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* main */
+
+.mainVisual {
+  padding: 0 0 200px 0;
+}
+
+.mainVisual .mainSlide figure {
+  position: relative;
+  height: 100vh;
+}
+
+.mainVisual .mainSlide figure::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  content: '';
+  width: 351.5px;
+  height: 70px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.mainVisual .mainSlide .itm01 {
+  background: url(../img/main/main01.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm02 {
+  background: url(../img/main/main02.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm03 {
+  background: url(../img/main/main03.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm04 {
+  background: url(../img/main/main04.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm05 {
+  background: url(../img/main/main05.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm06 {
+  background: url(../img/main/main06.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm07 {
+  background: url(../img/main/main07.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm08 {
+  background: url(../img/main/main08.jpg) no-repeat center center / cover;
+}
+.mainVisual .mainSlide .itm09 {
+  background: url(../img/main/main09.jpg) no-repeat center center / cover;
+}
+
+.mainVisual .mainSlide .inner {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mainVisual .mainSlide .inner .slogan {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+}
+
+.mainVisual .mainSlide .slogan h2 {
+  padding: 0 0 20px 0;
+  font-size: 80px;
+  font-weight: 300;
+  text-indent: -5px;
+}
+
+.mainVisual .mainSlide .slogan p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.mainVisual .mainSlide .subMenu {
+  display: flex;
+  gap: 60px;
+  position: absolute;
+  top: 75vh;
+  left: 0;
+}
+
+.mainVisual .mainSlide .subMenu a {
+  position: relative;
+}
+
+.mainVisual .mainSlide .subMenu a::after {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  transform: translate(150%, 50%) rotate(45deg);
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.mainVisual .mainSlide .subMenu p::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  margin: 5px 0 0 0;
+  background: #fff;
+}
+
+.mainVisual .mainSlide .subMenu a:hover p::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.mainVisual .mainSlide > ul {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainVisual .slick-dots > li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background: #bbbbbbb0;
+}
+
+.mainVisual .slick-dots > li.slick-active {
+  background: rgba(17, 17, 17, 0.3);
+  border: 2px solid #fff;
+}
+
+.mainVisual .slick-dots > li > button {
+  display: none;
+}
+
+/* Model Slide */
+
+.modelVisual > .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.modelVisual > .inner .categoryHeader h2 {
+  padding: 0 0 20px 0;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.modelVisual > .inner .categoryHeader p {
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0 0 20px 0;
+}
+
+.modelVisual > .inner .categoryHeader .modelMenu {
+  position: relative;
+  width: 300px;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.modelVisual > .inner .categoryHeader .modelMenu::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%) rotate(-45deg);
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.modelVisual .modelSlide .inner {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.modelVisual .modelSlide .inner .modelSlideItms {
+  padding: 100px 0;
+}
+
+.modelVisual .modelSlide .itm {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  margin: 0 20px 0 0;
+  padding: 40px;
+  background: rgba(51, 51, 51, 0.3);
+}
+
+.modelVisual .modelSlide .itm h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.modelVisual .modelSlide .itm p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.modelVisual .modelSlide .itm img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+
+.modelVisual .modelSlide .itm .btnDetail {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 318px;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+.modelVisual .modelSlide .itm .btnDetail:hover {
+  background: #fff;
+  color: #111;
+}
+
+.modelVisual .modelSlide ul {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modelVisual .slick-dots > li {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background: #bbbbbbb0;
+}
+
+.modelVisual .slick-dots > li.slick-active {
+  background: rgba(17, 17, 17, 0.3);
+  border: 2px solid #fff;
+}
+
+.modelVisual .slick-dots > li > button {
+  display: none;
+}

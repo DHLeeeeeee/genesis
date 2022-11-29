@@ -1,0 +1,37 @@
+/* Web font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* icon */
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #fff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* Web font */
+  line-height: 1;
+  /* 줄 높이를 폰트 사이즈에 가둔다 */
+  letter-spacing: -0.025em;
+  /* 자간 - 한글 자간은 붙일때 씀 */
+  background: #111;
+}
