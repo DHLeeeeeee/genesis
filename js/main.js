@@ -1,5 +1,8 @@
 $(function () {
   $('.mainSlide').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
     arrows: false,
     dots: true,
   });
