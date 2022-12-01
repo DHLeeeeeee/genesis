@@ -1,3 +1,15 @@
+@keyframes move {
+  0% {
+    bottom: 18%;
+  }
+  50% {
+    bottom: 19%;
+  }
+  100% {
+    bottom: 18%;
+  }
+}
+
 /* Header */
 
 .header {
@@ -9,7 +21,7 @@
   font-size: 15px;
   font-weight: 300;
   line-height: 70px;
-  z-index: 999;
+  z-index: 9999;
   background: #111;
 }
 
@@ -67,7 +79,25 @@
 /* main */
 
 .mainVisual {
+  position: relative;
   padding: 0 0 200px 0;
+}
+
+.mainVisual .ani_box {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  animation: move 1s infinite;
+}
+
+.mainVisual .scroll {
+  width: 30px;
+  height: 30px;
+  transform: rotate(-135deg);
+  border-top: 5px solid #fff;
+  border-left: 5px solid #fff;
 }
 
 .mainVisual .mainSlide figure {
