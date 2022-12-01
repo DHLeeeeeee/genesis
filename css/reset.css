@@ -9,7 +9,7 @@
   box-sizing: border-box;
   font-size: inherit;
   font-weight: inherit;
-  color: #fff;
+  color: inherit;
 }
 
 ul,
@@ -26,6 +26,12 @@ img {
   vertical-align: middle;
 }
 
+address,
+em,
+i {
+  font-style: normal;
+}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   /* Web font */
@@ -34,4 +40,5 @@ body {
   letter-spacing: -0.025em;
   /* 자간 - 한글 자간은 붙일때 씀 */
   background: #111;
+  color: #fff;
 }
