@@ -507,6 +507,10 @@
   margin: 0 0 0 30px;
 }
 
+.footer .mid .left i {
+  margin: 0 5px 0 0;
+}
+
 .footer .bottom {
   padding: 50px 0;
 }
